@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;3b49651a8728a645f865186a2c9e451a877602a5e64f78861a96008f0f3f030d;/home/linuxlite/WebMEAN/src/app/componentes/sculpt.ts"],
+  "sourcesContent": ["\n    .transition-all {\n      transition: all 0.3s ease-in-out;\n    }\n    .cursor-pointer {\n      cursor: pointer;\n    }\n    /* Est\u00E9tica scrollbar sutil para el panel lateral */\n    .card::-webkit-scrollbar {\n      width: 6px;\n    }\n    .card::-webkit-scrollbar-thumb {\n      background-color: #495057;\n      border-radius: 4px;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,cAAY,IAAI,KAAK;AACvB;AACA,CAAC;AACC,UAAQ;AACV;AAEA,CAAC,IAAI;AACH,SAAO;AACT;AACA,CAHC,IAGI;AACH,oBAAkB;AAClB,iBAAe;AACjB;",
+  "names": []
+}

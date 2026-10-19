@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;4f5d394c8cc55832d11124615f28d9b18bfa76c3363cec1ab829b2d1e1e4acd2;/home/linuxlite/WebMEAN/src/app/componentes/exhibicionchildglb.ts"],
+  "sourcesContent": ["\n    .control-panel {\n      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);\n      transform-origin: top left;\n      opacity: 1;\n      transform: scale(1) translateY(0);\n    }\n    .control-panel.collapsed {\n      opacity: 0;\n      transform: scale(0.9) translateY(-10px);\n      pointer-events: none;\n    }\n    .custom-range::-webkit-slider-thumb {\n      background-color: #d97706;\n    }\n    .custom-range::-moz-range-thumb {\n      background-color: #d97706;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,cAAY,IAAI,MAAM,aAAa,GAAG,EAAE,CAAC,EAAE,GAAG,EAAE;AAChD,oBAAkB,IAAI;AACtB,WAAS;AACT,aAAW,MAAM,GAAG,WAAW;AACjC;AACA,CANC,aAMa,CAAC;AACb,WAAS;AACT,aAAW,MAAM,KAAK,WAAW;AACjC,kBAAgB;AAClB;AACA,CAAC,YAAY;AACX,oBAAkB;AACpB;AACA,CAHC,YAGY;AACX,oBAAkB;AACpB;",
+  "names": []
+}

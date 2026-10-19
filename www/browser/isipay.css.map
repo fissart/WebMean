@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;ee1816b5e880f8888f62c5078a93704231639024387124c27db4f9aefae4ffe0;/home/linuxlite/WebMEAN/src/app/componentes/isipay.ts"],
+  "sourcesContent": ["\n    .card {\n      border-radius: 8px;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,iBAAe;AACjB;",
+  "names": []
+}

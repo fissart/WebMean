@@ -1,0 +1,30 @@
+{
+  "routes": {
+    "/": {},
+    "/acerca": {},
+    "/actualizarusuario": {},
+    "/adicionarusuario": {},
+    "/articulo": {},
+    "/audio": {},
+    "/blender": {},
+    "/blog": {},
+    "/carreras": {},
+    "/chat": {},
+    "/curses": {},
+    "/documentos": {},
+    "/exhibicion": {},
+    "/game": {},
+    "/imagen": {},
+    "/imagen2": {},
+    "/land": {},
+    "/login": {},
+    "/newmodel": {},
+    "/newww": {},
+    "/panel": {},
+    "/pintura": {},
+    "/sculpt": {},
+    "/statistic": {},
+    "/stats": {},
+    "/tramite": {}
+  }
+}

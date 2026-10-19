@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;61b3e4c406ba5ceef91ab1ccf43f1121be7014b10d3e48121df4154667975da9;/home/linuxlite/WebMEAN/src/app/componentes/p5js.ts"],
+  "sourcesContent": ["\n    .font-monospace {\n      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;\n    }\n    .sketch-parent canvas {\n      display: block;\n      width: 100% !important;\n      height: 100% !important;\n    }\n    .dropdown-menu .dropdown-item:hover {\n      background-color: #343a40;\n    }\n    button, .dropdown-menu, .card-header, .custom-control-label {\n      user-select: none;\n      -webkit-user-select: none;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC;AAAA,IAAa,YAAY;AAAA,IAAE,cAAc;AAAA,IAAE,KAAK;AAAA,IAAE,MAAM;AAAA,IAAE,QAAQ;AAAA,IAAE;AACtE;AACA,CAAC,cAAc;AACb,WAAS;AACT,SAAO;AACP,UAAQ;AACV;AACA,CAAC,cAAc,CAAC,aAAa;AAC3B,oBAAkB;AACpB;AACA;AAAQ,CAHP;AAGuB,CAAC;AAAa,CAAC;AACrC,eAAa;AACb,uBAAqB;AACvB;",
+  "names": []
+}

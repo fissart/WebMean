@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;c4c3ba16bf074a883d5bd01481fa432761c61428037a93df3592e0838aac76a8;/home/linuxlite/WebMEAN/src/app/componentes/editorimg copy.ts"],
+  "sourcesContent": ["\n    .canvas-wrapper {\n      position: relative;\n      border-radius: 0.35rem;\n      overflow: hidden;\n      border: 1px solid #ced4da;\n      background-color: #f8f9fa;\n      background-image: radial-gradient(#adb5bd 1px, transparent 1px);\n      background-size: 16px 16px;\n    }\n    .toolbar-title {\n      font-size: 0.7rem;\n      font-weight: 700;\n      color: #6c757d;\n      text-transform: uppercase;\n      letter-spacing: 0.06em;\n    }\n    /* Clases de utilidad para gap compatibles con Bootstrap 4 */\n    .gap-2 { gap: 8px; }\n    .gap-3 { gap: 12px; }\n  "],
+  "mappings": ";AACI,CAAC;AACC,YAAU;AACV,iBAAe;AACf,YAAU;AACV,UAAQ,IAAI,MAAM;AAClB,oBAAkB;AAClB,oBAAkB,gBAAgB,QAAQ,GAAG,EAAE,YAAY;AAC3D,mBAAiB,KAAK;AACxB;AACA,CAAC;AACC,aAAW;AACX,eAAa;AACb,SAAO;AACP,kBAAgB;AAChB,kBAAgB;AAClB;AAEA,CAAC;AAAQ,OAAK;AAAK;AACnB,CAAC;AAAQ,OAAK;AAAM;",
+  "names": []
+}

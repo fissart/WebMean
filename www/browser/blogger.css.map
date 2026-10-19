@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;632279b88ef040306ccf2ffe88604fb4dcc59ef6c8239dcbb15aa96e69c0137e;/home/linuxlite/WebMEAN/src/app/componentes/blogger.ts"],
+  "sourcesContent": ["\n    .forum-content ::ng-deep img { max-width: 100%; height: auto; border-radius: 4px; }\n    ::ng-deep .ck-editor__editable_inline { min-height: 180px; }\n  "],
+  "mappings": ";AACI,CAAC,cAAc,UAAU;AAAM,aAAW;AAAM,UAAQ;AAAM,iBAAe;AAAK;AAClF,UAAU,CAAC;AAA6B,cAAY;AAAO;",
+  "names": []
+}

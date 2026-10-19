@@ -1,13 +1,67 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>WebMEAN</title>
+  <title>ESFAPA</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <link rel="icon" id="www" type="image/svg+xml" />
+  <meta name="description" content="ESFAPA />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+  <!-- <script src="https://static.izipay.pe/js/v1/checkout.js"></script> -->
+  <script src="https://sandbox-checkout.izipay.pe/payments/v1/js/index.js"></script>
+  <!-- For Production, use: https://checkout.izipay.pe/payments/v1/js/index.js -->
+
 </head>
-<body>
+
+<body translate="no">
   <app-root></app-root>
 </body>
+
+<script>
+  const isTargetHostname = window.location.hostname === "www.esfapa.edu.pe";
+
+  function changeFavicon(newImagePath) {
+    let favicon = document.querySelector('link[rel="icon"]') || document.getElementById('www');
+    favicon.setAttribute('href', newImagePath);
+  }
+  if (isTargetHostname) {
+    var day = new Date().getDay()
+    changeFavicon('/www' + (day + 1) + '.svg')
+    document.title = "ESFAPA Ayacucho"
+  } else {
+    let favicon = document.querySelector('link[rel="icon"]') || document.getElementById('www');
+    favicon.setAttribute('href', '/logo.svg');
+    document.title = "FISARTH Ayacucho"
+  }
+
+  const weeklyFonts = [
+    "MilkyVintage-Regular",         // Sunday
+    "MilkyVintage-Regular",           // Monday
+    "MilkyVintage-Regular",     // Tuesday
+    "MilkyVintage-Regular",         // Wednesday
+    "MilkyVintage-Regular", // Thursday
+    // "HEIDH___-normal",    // Friday
+    "MilkyVintage-Regular",    // Friday
+    "MilkyVintage-Regular",         // Sunday
+    // "Impact"           // Saturday
+  ];
+
+
+  // Get current day index (0 to 6)
+  const currentDay = new Date().getDay();
+
+  // Inject the chosen font into your CSS variable
+  document.documentElement.style.setProperty('--daily-font', weeklyFonts[currentDay]);
+
+</script>
+
 </html>

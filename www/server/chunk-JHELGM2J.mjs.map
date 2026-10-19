@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/componentes/editorimg.ts"],
+  "sourcesContent": ["import { Component, ElementRef, ViewChild } from '@angular/core';\n\n@Component({\n  selector: 'app-contenedor-iframe',\n  standalone: true,\n  template: `\n    <div class=\"editor-container\">\n      <iframe \n        #miniPaintIframe \n        src=\"/www/index.html\" \n        width=\"100%\" \n        height=\"600px\" \n        style=\"border: none;\">\n      </iframe>\n      \n    </div>\n  `\n})\nexport class ContenedorIframeComponent {\n  // Obtenemos una referencia al iframe del template\n  @ViewChild('miniPaintIframe') iframeRef!: ElementRef<HTMLIFrameElement>;\n\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAkBM,IAAO,4BAAP,MAAO,2BAAyB;;EAEN;;qCAFnB,4BAAyB;EAAA;yEAAzB,4BAAyB,WAAA,CAAA,CAAA,uBAAA,CAAA,GAAA,WAAA,SAAA,gCAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;;;;;;;;;AAZlC,MAAA,4BAAA,GAAA,OAAA,CAAA;AACE,MAAA,uBAAA,GAAA,UAAA,GAAA,CAAA;AAQF,MAAA,0BAAA;;;;;sEAGS,2BAAyB,CAAA;UAhBrC;WAAU;MACT,UAAU;MACV,YAAY;MACZ,UAAU;;;;;;;;;;;;KAYX;;UAGE;WAAU,iBAAiB;;;;6EAFjB,2BAAyB,EAAA,WAAA,6BAAA,UAAA,oCAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;574a8ad73455e60ed930be9df1bfdef15fbde2bddf9f3ff790251da458a0dbf6;/home/linuxlite/WebMEAN/src/app/componentes/login.ts"],
+  "sourcesContent": ["\n    .form-floating > label {\n      padding-left: 2.75rem;\n    }\n    .input-icon-wrapper {\n      position: relative;\n    }\n    .input-icon {\n      position: absolute;\n      top: 50%;\n      left: 1rem;\n      transform: translateY(-50%);\n      z-index: 5;\n      color: #6c757d;\n      font-size: 1.15rem;\n      transition: color 0.2s ease-in-out;\n    }\n    .form-control-icon {\n      padding-left: 2.85rem !important;\n    }\n    .input-icon-wrapper:focus-within .input-icon {\n      color: #0d6efd;\n    }\n    .card-gradient-header {\n      background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);\n    }\n    .google-btn-wrapper {\n      min-height: 44px;\n    }\n  "],
+  "mappings": ";AACI,CAAC,cAAc,EAAE;AACf,gBAAc;AAChB;AACA,CAAC;AACC,YAAU;AACZ;AACA,CAAC;AACC,YAAU;AACV,OAAK;AACL,QAAM;AACN,aAAW,WAAW;AACtB,WAAS;AACT,SAAO;AACP,aAAW;AACX,cAAY,MAAM,KAAK;AACzB;AACA,CAAC;AACC,gBAAc;AAChB;AACA,CAhBC,kBAgBkB,cAAc,CAbhC;AAcC,SAAO;AACT;AACA,CAAC;AACC;AAAA,IAAY;AAAA,MAAgB,MAAhB;AAAA,MAAwB,QAAQ,EAAhC;AAAA,MAAoC,QAAQ;AAC1D;AACA,CAAC;AACC,cAAY;AACd;",
+  "names": []
+}

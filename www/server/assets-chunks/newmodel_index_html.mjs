@@ -1,0 +1,145 @@
+export default `<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>ESFAPA</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://accounts.google.com/gsi/client" async="" defer=""></script>
+
+  <link rel="icon" id="www" type="image/svg+xml">
+  <meta name="description" content="ESFAPA /&gt;
+  &lt;link rel=" preconnect"="" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&amp;display=swap" rel="stylesheet">
+
+  <!-- <script src="https://static.izipay.pe/js/v1/checkout.js"></script> -->
+  <script src="https://sandbox-checkout.izipay.pe/payments/v1/js/index.js"></script>
+  <!-- For Production, use: https://checkout.izipay.pe/payments/v1/js/index.js -->
+
+<link rel="stylesheet" href="styles.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" as="style"><link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&amp;display=swap" as="style"><link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap" as="style"><link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&amp;display=swap" as="style"><link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600&amp;display=swap" as="style"><link rel="preload" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&amp;display=swap" as="style"><link rel="preload" href="https://fonts.googleapis.com/css2?family=Black+Ops+One&amp;family=Orbitron:wght@400..900&amp;family=Squada+One&amp;display=swap" as="style"><style ng-app-id="ng">
+
+[_nghost-ng-c3255685679] {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.three-container[_ngcontent-ng-c3255685679] {
+  width: 100%;
+  height: 100%;
+  min-width: 100px;
+  min-height: 100px;
+  overflow: hidden;
+  cursor: default;
+  position: relative;
+}
+.three-container[_ngcontent-ng-c3255685679]     canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+.face-action-btn[_ngcontent-ng-c3255685679] {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: rgba(37, 99, 235, 0.9);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 15;
+  transition: background 0.2s, transform 0.1s;
+  white-space: nowrap;
+  pointer-events: auto;
+}
+.face-action-btn[_ngcontent-ng-c3255685679]:hover {
+  background: rgba(29, 78, 216, 0.95);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+.info-badge[_ngcontent-ng-c3255685679] {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.face-html-content[_ngcontent-ng-c3255685679]   button[_ngcontent-ng-c3255685679] {
+  pointer-events: auto;
+}
+.info-badge[_ngcontent-ng-c3255685679]   button[_ngcontent-ng-c3255685679] {
+  background: #17459aff;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.info-badge[_ngcontent-ng-c3255685679]   button[_ngcontent-ng-c3255685679]:hover {
+  background: #1d4ed8;
+}
+/*# sourceMappingURL=/logomodel3d.css.map */</style></head>
+
+<body translate="no">
+  <app-root ng-version="21.0.5" ng-server-context="ssg"><router-outlet></router-outlet><app-three-html-canvas _nghost-ng-c3255685679=""><div _ngcontent-ng-c3255685679="" class="three-container"><!--container--></div><div _ngcontent-ng-c3255685679="" class="info-badge"><button _ngcontent-ng-c3255685679=""><i _ngcontent-ng-c3255685679="" class="bi bi-arrow-clockwise"></i></button></div></app-three-html-canvas><!--container--></app-root>
+<link rel="modulepreload" href="chunk-JEAYVHF3.js"><link rel="modulepreload" href="chunk-YIIFRX4I.js"><link rel="modulepreload" href="chunk-3QOIHUY2.js"><link rel="modulepreload" href="chunk-PFU5G7MY.js"><link rel="modulepreload" href="chunk-MMWGUNZC.js"><link rel="modulepreload" href="chunk-6QD4DAAM.js"><link rel="modulepreload" href="chunk-FXWIEX65.js"><link rel="modulepreload" href="chunk-3WPM564S.js"><script src="scripts.js" defer=""></script><script src="main.js" type="module"></script>
+<link rel="modulepreload" href="chunk-MQ7NPVTV.js">
+<link rel="modulepreload" href="chunk-WGBKUFOR.js">
+<link rel="modulepreload" href="chunk-FUFS4GQK.js">
+<link rel="modulepreload" href="chunk-TPI4OM5L.js">
+<link rel="modulepreload" href="chunk-ZUJZQ355.js">
+
+
+<script>
+  const isTargetHostname = window.location.hostname === "www.esfapa.edu.pe";
+
+  function changeFavicon(newImagePath) {
+    let favicon = document.querySelector('link[rel="icon"]') || document.getElementById('www');
+    favicon.setAttribute('href', newImagePath);
+  }
+  if (isTargetHostname) {
+    var day = new Date().getDay()
+    changeFavicon('/www' + (day + 1) + '.svg')
+    document.title = "ESFAPA Ayacucho"
+  } else {
+    let favicon = document.querySelector('link[rel="icon"]') || document.getElementById('www');
+    favicon.setAttribute('href', '/logo.svg');
+    document.title = "FISARTH Ayacucho"
+  }
+
+  const weeklyFonts = [
+    "MilkyVintage-Regular",         // Sunday
+    "MilkyVintage-Regular",           // Monday
+    "MilkyVintage-Regular",     // Tuesday
+    "MilkyVintage-Regular",         // Wednesday
+    "MilkyVintage-Regular", // Thursday
+    // "HEIDH___-normal",    // Friday
+    "MilkyVintage-Regular",    // Friday
+    "MilkyVintage-Regular",         // Sunday
+    // "Impact"           // Saturday
+  ];
+
+
+  // Get current day index (0 to 6)
+  const currentDay = new Date().getDay();
+
+  // Inject the chosen font into your CSS variable
+  document.documentElement.style.setProperty('--daily-font', weeklyFonts[currentDay]);
+
+</script>
+
+</body></html>`;

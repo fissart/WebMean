@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;f4b0a81a3f1c1b834fc8f707147c33f36334cb8b5052528b90e98165d37ed1ba;/home/linuxlite/WebMEAN/src/app/componentes/video.ts"],
+  "sourcesContent": ["\n    .unsupported-browser, .username-container {\n      background: white;\n      width: 30%;\n      min-width: 400px;\n      padding: 20px;\n      text-align: center;\n      margin: 50px auto;\n      border-radius: 8px;\n      box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n    }\n    .local-preview-container {\n      text-align: center;\n      padding-top: 40px;\n    }\n    .local-video-preview {\n      border: 2px solid #bdbdbd;\n      object-fit: cover;\n      width: 60%;\n      height: 300px;\n    }\n    .local-video-grid {\n      border: 2px solid #bdbdbd;\n      margin: 10px;\n      object-fit: cover;\n      width: 100%;\n      height: 100%;\n    }\n    .btn-down {\n      position: fixed;\n      bottom: 0;\n      width: 100%;\n      z-index: 1000;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AAAqB,CAAC;AACrB,cAAY;AACZ,SAAO;AACP,aAAW;AACX,WAAS;AACT,cAAY;AACZ,UAAQ,KAAK;AACb,iBAAe;AACf,cAAY,EAAE,IAAI,IAAI,KAAK,CAAC,EAAC,CAAC,EAAC,CAAC,EAAC;AACnC;AACA,CAAC;AACC,cAAY;AACZ,eAAa;AACf;AACA,CAAC;AACC,UAAQ,IAAI,MAAM;AAClB,cAAY;AACZ,SAAO;AACP,UAAQ;AACV;AACA,CAAC;AACC,UAAQ,IAAI,MAAM;AAClB,UAAQ;AACR,cAAY;AACZ,SAAO;AACP,UAAQ;AACV;AACA,CAAC;AACC,YAAU;AACV,UAAQ;AACR,SAAO;AACP,WAAS;AACX;",
+  "names": []
+}

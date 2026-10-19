@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;beed99cfdc84c822b83742a5d6b059c49019fd9f8b0650c5c98d4eb56b7267cf;/home/linuxlite/WebMEAN/src/app/componentes/inicio3d.ts"],
+  "sourcesContent": ["\n    .landing-container {\n      position: relative;\n      width: 100%;\n      min-height: 100vh;\n      overflow-x: hidden;\n      background: #fcfcfcff;\n      font-family: system-ui, -apple-system, sans-serif;\n    }\n    canvas {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      display: block;\n      z-index: 1;\n    }\n    .footer-overlay {\n      position: absolute;\n      top: 55.5%;\n      left: 50%;\n      transform: translate(-50%, -50%);\n      width: 100%;\n      z-index: 10;\n      pointer-events: auto;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,YAAU;AACV,SAAO;AACP,cAAY;AACZ,cAAY;AACZ,cAAY;AACZ;AAAA,IAAa,SAAS;AAAA,IAAE,aAAa;AAAA,IAAE;AACzC;AACA;AACE,YAAU;AACV,OAAK;AACL,QAAM;AACN,SAAO;AACP,UAAQ;AACR,WAAS;AACT,WAAS;AACX;AACA,CAAC;AACC,YAAU;AACV,OAAK;AACL,QAAM;AACN,aAAW,UAAU,IAAI,EAAE;AAC3B,SAAO;AACP,WAAS;AACT,kBAAgB;AAClB;",
+  "names": []
+}

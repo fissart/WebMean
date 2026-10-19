@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;529e461eb1c282ee873402fba93cbd92bd69e8e3ec42642cfcd140f0a854a1e5;/home/linuxlite/WebMEAN/src/app/componentes/chat.ts"],
+  "sourcesContent": ["\n    :host {\n      display: block;\n    }\n    .object-cover {\n      object-fit: cover;\n    }\n    .border-3 {\n      border-width: 3px !important;\n    }\n  "],
+  "mappings": ";AACI;AACE,WAAS;AACX;AACA,CAAC;AACC,cAAY;AACd;AACA,CAAC;AACC,gBAAc;AAChB;",
+  "names": []
+}

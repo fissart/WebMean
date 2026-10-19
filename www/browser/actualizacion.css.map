@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;c2122b0e49b7428c10b61a725789081b89e3f5dbe8422bda1b447f0dd76afae9;/home/linuxlite/WebMEAN/src/app/componentes/actualizacion.ts"],
+  "sourcesContent": ["\n    .ffont {\n      font-family: inherit;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,eAAa;AACf;",
+  "names": []
+}
